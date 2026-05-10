@@ -1,0 +1,55 @@
+﻿station_id,station_name,governorate,city,latitude,longitude,water_source_type,station_category,plant_capacity_m3_day,operational_status,commission_date,data_source
+EG-DW-0001,Cairo Drinking Water Plant 1,Cairo,Cairo,29.992789,31.248779,Nile,Drinking,651059,Active,2022-06-17,Simulation Metadata Seeder
+EG-DW-0002,Cairo Drinking Water Plant 2,Cairo,Cairo,30.054384,31.17888,Nile,Drinking,896151,Active,2022-09-12,Simulation Metadata Seeder
+EG-DW-0003,Giza Drinking Water Plant 1,Giza,Giza,29.990458,31.244909,Nile,Drinking,698538,Active,2017-06-19,Simulation Metadata Seeder
+EG-DW-0004,Giza Drinking Water Plant 2,Giza,Giza,30.002877,31.195084,Nile,Drinking,543345,Active,2015-07-06,Simulation Metadata Seeder
+EG-DW-0005,Alexandria Drinking Water Plant 1,Alexandria,Alexandria,31.140994,29.968163,Canal,Drinking,558662,Active,2021-08-21,Simulation Metadata Seeder
+EG-DW-0006,Alexandria Drinking Water Plant 2,Alexandria,Alexandria,31.130614,29.860113,Canal,Drinking,385694,Active,2014-09-27,Simulation Metadata Seeder
+EG-DW-0007,Dakahlia Drinking Water Plant 1,Dakahlia,Mansoura,31.116668,31.452034,Nile,Drinking,256705,Active,2016-05-02,Simulation Metadata Seeder
+EG-DW-0008,Dakahlia Drinking Water Plant 2,Dakahlia,Mansoura,31.039946,31.401972,Nile,Drinking,156318,Inactive,2005-03-26,Simulation Metadata Seeder
+EG-DW-0009,Red Sea Drinking Water Plant 1,Red Sea,Hurghada,27.226938,33.850006,Desalinated Blend,Drinking,143279,Active,2024-12-25,Simulation Metadata Seeder
+EG-DW-0010,Red Sea Drinking Water Plant 2,Red Sea,Hurghada,27.276262,33.85907,Desalinated Blend,Drinking,178784,Active,2016-08-18,Simulation Metadata Seeder
+EG-DW-0011,Beheira Drinking Water Plant 1,Beheira,Damanhur,30.991748,30.453585,Canal,Drinking,268063,Active,2005-11-05,Simulation Metadata Seeder
+EG-DW-0012,Beheira Drinking Water Plant 2,Beheira,Damanhur,31.061718,30.414405,Canal,Drinking,349875,Active,2020-01-27,Simulation Metadata Seeder
+EG-DW-0013,Fayoum Drinking Water Plant 1,Fayoum,Fayoum,29.371478,30.858218,Canal,Drinking,248558,Active,2012-07-26,Simulation Metadata Seeder
+EG-DW-0014,Fayoum Drinking Water Plant 2,Fayoum,Fayoum,29.270487,30.857765,Canal,Drinking,306904,Active,2019-11-17,Simulation Metadata Seeder
+EG-DW-0015,Gharbia Drinking Water Plant 1,Gharbia,Tanta,30.762586,30.924285,Canal,Drinking,352285,Active,2009-09-04,Simulation Metadata Seeder
+EG-DW-0016,Gharbia Drinking Water Plant 2,Gharbia,Tanta,30.767325,31.020178,Canal,Drinking,152506,Under Maintenance,2011-12-11,Simulation Metadata Seeder
+EG-DW-0017,Ismailia Drinking Water Plant 1,Ismailia,Ismailia,30.592612,32.321441,Canal,Drinking,370374,Active,2024-04-07,Simulation Metadata Seeder
+EG-DW-0018,Ismailia Drinking Water Plant 2,Ismailia,Ismailia,30.609653,32.278423,Canal,Drinking,187681,Inactive,2019-11-28,Simulation Metadata Seeder
+EG-DW-0019,Menofia Drinking Water Plant 1,Menofia,Shibin El Kom,30.537551,31.035399,Nile,Drinking,133980,Active,2019-03-11,Simulation Metadata Seeder
+EG-DW-0020,Menofia Drinking Water Plant 2,Menofia,Shibin El Kom,30.56018,30.955748,Nile,Drinking,241581,Active,2011-06-16,Simulation Metadata Seeder
+EG-DW-0021,Minya Drinking Water Plant 1,Minya,Minya,28.118206,30.743937,Nile,Drinking,339788,Under Maintenance,2021-07-18,Simulation Metadata Seeder
+EG-DW-0022,Minya Drinking Water Plant 2,Minya,Minya,28.080145,30.826604,Nile,Drinking,156318,Active,2017-01-10,Simulation Metadata Seeder
+EG-DW-0023,Qalyubia Drinking Water Plant 1,Qalyubia,Banha,30.51057,31.106165,Nile,Drinking,322139,Active,2007-02-28,Simulation Metadata Seeder
+EG-DW-0024,Qalyubia Drinking Water Plant 2,Qalyubia,Banha,30.541561,31.19801,Nile,Drinking,195482,Inactive,2014-11-14,Simulation Metadata Seeder
+EG-DW-0025,New Valley Drinking Water Plant 1,New Valley,Kharga,25.433752,30.591518,Groundwater,Drinking,73527,Under Maintenance,2024-10-08,Simulation Metadata Seeder
+EG-DW-0026,New Valley Drinking Water Plant 2,New Valley,Kharga,25.513668,30.593703,Groundwater,Drinking,140857,Active,2021-10-11,Simulation Metadata Seeder
+EG-DW-0027,Suez Drinking Water Plant 1,Suez,Suez,29.998901,32.603803,Canal,Drinking,264150,Active,2016-07-08,Simulation Metadata Seeder
+EG-DW-0028,Suez Drinking Water Plant 2,Suez,Suez,29.940187,32.561642,Canal,Drinking,225784,Active,2015-02-26,Simulation Metadata Seeder
+EG-DW-0029,Aswan Drinking Water Plant 1,Aswan,Aswan,24.119398,32.878823,Nile,Drinking,279078,Active,2022-09-06,Simulation Metadata Seeder
+EG-DW-0030,Aswan Drinking Water Plant 2,Aswan,Aswan,24.09623,32.862714,Nile,Drinking,322897,Active,2011-04-13,Simulation Metadata Seeder
+EG-DW-0031,Asyut Drinking Water Plant 1,Asyut,Asyut,27.127914,31.26297,Nile,Drinking,292680,Active,2006-02-22,Simulation Metadata Seeder
+EG-DW-0032,Asyut Drinking Water Plant 2,Asyut,Asyut,27.114329,31.11192,Nile,Drinking,355368,Inactive,2005-12-08,Simulation Metadata Seeder
+EG-DW-0033,Beni Suef Drinking Water Plant 1,Beni Suef,Beni Suef,29.033996,31.085226,Nile,Drinking,242828,Active,2007-04-02,Simulation Metadata Seeder
+EG-DW-0034,Beni Suef Drinking Water Plant 2,Beni Suef,Beni Suef,29.01929,31.051558,Nile,Drinking,234630,Inactive,2009-06-08,Simulation Metadata Seeder
+EG-DW-0035,Port Said Drinking Water Plant 1,Port Said,Port Said,31.234988,32.29052,Canal,Drinking,360717,Active,2010-03-09,Simulation Metadata Seeder
+EG-DW-0036,Port Said Drinking Water Plant 2,Port Said,Port Said,31.311409,32.317666,Canal,Drinking,199349,Active,2024-03-10,Simulation Metadata Seeder
+EG-DW-0037,Damietta Drinking Water Plant 1,Damietta,Damietta,31.415888,31.771141,Nile,Drinking,399761,Active,2009-02-13,Simulation Metadata Seeder
+EG-DW-0038,Damietta Drinking Water Plant 2,Damietta,Damietta,31.427722,31.878714,Nile,Drinking,260484,Active,2011-12-08,Simulation Metadata Seeder
+EG-DW-0039,Sharkia Drinking Water Plant 1,Sharkia,Zagazig,30.65796,31.456131,Canal,Drinking,311888,Active,2005-01-04,Simulation Metadata Seeder
+EG-DW-0040,Sharkia Drinking Water Plant 2,Sharkia,Zagazig,30.638339,31.489214,Canal,Drinking,215392,Inactive,2006-03-05,Simulation Metadata Seeder
+EG-DW-0041,South Sinai Drinking Water Plant 1,South Sinai,El Tor,28.23576,33.66151,Desalinated Blend,Drinking,130368,Inactive,2018-09-27,Simulation Metadata Seeder
+EG-DW-0042,South Sinai Drinking Water Plant 2,South Sinai,El Tor,28.312105,33.671527,Desalinated Blend,Drinking,118389,Active,2011-11-15,Simulation Metadata Seeder
+EG-DW-0043,Kafr El Sheikh Drinking Water Plant 1,Kafr El Sheikh,Kafr El Sheikh,31.156169,30.928748,Canal,Drinking,164712,Active,2020-03-26,Simulation Metadata Seeder
+EG-DW-0044,Kafr El Sheikh Drinking Water Plant 2,Kafr El Sheikh,Kafr El Sheikh,31.095718,31.008776,Canal,Drinking,384083,Under Maintenance,2005-04-03,Simulation Metadata Seeder
+EG-DW-0045,Matrouh Drinking Water Plant 1,Matrouh,Mersa Matruh,31.318124,27.268945,Groundwater,Drinking,109396,Active,2018-11-18,Simulation Metadata Seeder
+EG-DW-0046,Matrouh Drinking Water Plant 2,Matrouh,Mersa Matruh,31.285888,27.272807,Groundwater,Drinking,76723,Active,2024-05-28,Simulation Metadata Seeder
+EG-DW-0047,Luxor Drinking Water Plant 1,Luxor,Luxor,25.678242,32.668955,Nile,Drinking,321817,Active,2007-06-12,Simulation Metadata Seeder
+EG-DW-0048,Luxor Drinking Water Plant 2,Luxor,Luxor,25.688276,32.593959,Nile,Drinking,143779,Active,2018-11-21,Simulation Metadata Seeder
+EG-DW-0049,Qena Drinking Water Plant 1,Qena,Qena,26.16404,32.727772,Nile,Drinking,363667,Active,2010-02-10,Simulation Metadata Seeder
+EG-DW-0050,Qena Drinking Water Plant 2,Qena,Qena,26.090549,32.704406,Nile,Drinking,146903,Active,2006-07-16,Simulation Metadata Seeder
+EG-DW-0051,North Sinai Drinking Water Plant 1,North Sinai,Arish,31.191622,33.80764,Groundwater,Drinking,63243,Active,2005-12-21,Simulation Metadata Seeder
+EG-DW-0052,North Sinai Drinking Water Plant 2,North Sinai,Arish,31.107856,33.79672,Groundwater,Drinking,117042,Active,2012-03-05,Simulation Metadata Seeder
+EG-DW-0053,Sohag Drinking Water Plant 1,Sohag,Sohag,26.509406,31.648816,Nile,Drinking,110510,Active,2017-09-18,Simulation Metadata Seeder
+EG-DW-0054,Sohag Drinking Water Plant 2,Sohag,Sohag,26.539284,31.619171,Nile,Drinking,96007,Active,2009-05-08,Simulation Metadata Seeder

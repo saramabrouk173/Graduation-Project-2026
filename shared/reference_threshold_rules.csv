@@ -1,0 +1,20 @@
+﻿parameter_code,stage_name,water_type,safe_min,safe_max,warning_min,warning_max,critical_min,critical_max,rule_weight,effective_from,effective_to,rule_source
+raw_turbidity_ntu,raw_intake,Drinking,0.0,50.0,50.0,150.0,150.0,1000.0,0.12,2026-05-09,,EWIS Operational Reference Rules
+raw_ph,raw_intake,Drinking,6.8,8.2,6.5,8.5,0.0,14.0,0.08,2026-05-09,,EWIS Operational Reference Rules
+raw_conductivity_us_cm,raw_intake,Drinking,100.0,1200.0,1200.0,1800.0,1800.0,6000.0,0.05,2026-05-09,,EWIS Operational Reference Rules
+raw_temperature_c,raw_intake,Drinking,10.0,30.0,30.0,35.0,35.0,50.0,0.05,2026-05-09,,EWIS Operational Reference Rules
+raw_ammonia_mg_l,raw_intake,Drinking,0.0,0.3,0.3,0.6,0.6,5.0,0.12,2026-05-09,,EWIS Operational Reference Rules
+raw_alkalinity_mg_l,raw_intake,Drinking,40.0,180.0,20.0,220.0,0.0,500.0,0.06,2026-05-09,,EWIS Operational Reference Rules
+settled_turbidity_ntu,sedimentation_outlet,Drinking,0.0,10.0,10.0,20.0,20.0,200.0,0.1,2026-05-09,,EWIS Operational Reference Rules
+sludge_blanket_level_m,sedimentation_outlet,Drinking,0.0,1.5,1.5,2.5,2.5,6.0,0.06,2026-05-09,,EWIS Operational Reference Rules
+estimated_settling_efficiency_pct,sedimentation_outlet,Drinking,70.0,100.0,50.0,70.0,0.0,50.0,0.08,2026-05-09,,EWIS Operational Reference Rules
+filtered_turbidity_ntu,filtration_outlet,Drinking,0.0,0.3,0.3,1.0,1.0,50.0,0.12,2026-05-09,,EWIS Operational Reference Rules
+head_loss_m,filtration_outlet,Drinking,0.2,2.0,2.0,2.8,2.8,6.0,0.08,2026-05-09,,EWIS Operational Reference Rules
+filtration_rate_m_h,filtration_outlet,Drinking,4.0,9.0,9.0,12.0,12.0,20.0,0.06,2026-05-09,,EWIS Operational Reference Rules
+final_residual_chlorine_mg_l,final_outlet,Drinking,0.2,1.0,0.1,1.5,0.0,3.0,0.16,2026-05-09,,EWIS Drinking Water Safety Rules
+final_ph,final_outlet,Drinking,6.5,8.5,6.2,8.8,0.0,14.0,0.1,2026-05-09,,EWIS Drinking Water Safety Rules
+final_turbidity_ntu,final_outlet,Drinking,0.0,0.3,0.3,1.0,1.0,10.0,0.16,2026-05-09,,EWIS Drinking Water Safety Rules
+turbidity_removal_pct,derived,Drinking,95.0,100.0,85.0,95.0,0.0,85.0,0.1,2026-05-09,,EWIS Derived Analytics Rules
+contamination_risk_score,derived,Drinking,0.0,30.0,30.0,60.0,60.0,100.0,0.2,2026-05-09,,EWIS Derived Analytics Rules
+bacterial_regrowth_risk_score,derived,Drinking,0.0,30.0,30.0,60.0,60.0,100.0,0.2,2026-05-09,,EWIS Derived Analytics Rules
+process_performance_score,derived,Drinking,80.0,100.0,60.0,80.0,0.0,60.0,0.2,2026-05-09,,EWIS Derived Analytics Rules

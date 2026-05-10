@@ -1,0 +1,20 @@
+﻿parameter_code,parameter_name,parameter_category,unit,description,stage_name,is_online
+raw_turbidity_ntu,Raw Water Turbidity,physical,NTU,Turbidity of incoming untreated water at raw water intake.,raw_intake,1
+raw_ph,Raw Water pH,chemical,pH,pH at raw water intake before coagulation and treatment.,raw_intake,1
+raw_conductivity_us_cm,Raw Water Conductivity,chemical,uS/cm,Electrical conductivity of raw water indicating dissolved salts.,raw_intake,1
+raw_temperature_c,Raw Water Temperature,physical,C,Raw water temperature affecting process kinetics and disinfection.,raw_intake,1
+raw_ammonia_mg_l,Raw Water Ammonia,chemical,mg/L,Ammonia concentration in raw water as a contamination indicator.,raw_intake,1
+raw_alkalinity_mg_l,Raw Water Alkalinity,chemical,mg/L as CaCO3,Alkalinity of raw water important for coagulation performance.,raw_intake,1
+settled_turbidity_ntu,Settled Water Turbidity,physical,NTU,Turbidity after sedimentation and clarification.,sedimentation_outlet,1
+sludge_blanket_level_m,Sludge Blanket Level,operational,m,Estimated sludge blanket level inside sedimentation basin.,sedimentation_outlet,1
+estimated_settling_efficiency_pct,Estimated Settling Efficiency,derived,%,Estimated sedimentation removal efficiency based on inlet/outlet turbidity.,sedimentation_outlet,1
+filtered_turbidity_ntu,Filtered Water Turbidity,physical,NTU,Turbidity after filtration stage.,filtration_outlet,1
+head_loss_m,Filter Head Loss,operational,m,Head loss across the filter media indicating clogging load.,filtration_outlet,1
+filtration_rate_m_h,Filtration Rate,operational,m/h,Filtration rate through filter bed.,filtration_outlet,1
+final_residual_chlorine_mg_l,Final Residual Chlorine,chemical,mg/L,Free residual chlorine at final outlet before distribution.,final_outlet,1
+final_ph,Final Water pH,chemical,pH,Final treated water pH at plant outlet.,final_outlet,1
+final_turbidity_ntu,Final Water Turbidity,physical,NTU,Final treated water turbidity at outlet.,final_outlet,1
+turbidity_removal_pct,Overall Turbidity Removal,derived,%,Estimated overall turbidity removal from raw intake to final outlet.,derived,1
+contamination_risk_score,Contamination Risk Score,derived,score,Composite score indicating chemical/physical process risk.,derived,1
+bacterial_regrowth_risk_score,Bacterial Regrowth Risk Score,derived,score,"Proxy score for microbial regrowth risk based on chlorine, turbidity, temperature, pH, and ammonia.",derived,1
+process_performance_score,Treatment Process Performance Score,derived,score,Composite score reflecting treatment stage effectiveness.,derived,1

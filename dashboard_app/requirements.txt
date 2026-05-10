@@ -1,0 +1,7 @@
+streamlit
+pandas
+sqlalchemy
+pymssql
+plotly
+pydeck
+streamlit-autorefresh

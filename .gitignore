@@ -1,0 +1,49 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment files
+.env
+.env.local
+.venv/
+venv/
+env/
+
+# Airflow runtime files
+airflow/logs/
+airflow/airflow.db
+airflow/webserver_config.py
+
+# Airflow run markers
+airflow/dags/.metadata_sent
+airflow/dags/.reference_sent
+
+# Spark checkpoints
+shared/checkpoints/
+
+# Streamlit secrets
+dashboard_app/.streamlit/secrets.toml
+
+# Project tree exports
+project_tree.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Archives and heavy files
+*.zip
+*.rar
+*.7z
+*.bak
+
+# Jupyter
+.ipynb_checkpoints/
+# Large Spark archive
+airflow/spark-3.5.1-bin-hadoop3.tgz
+*.tgz

@@ -1,0 +1,217 @@
+﻿sensor_id,station_id,sensor_name,sensor_stage,sensor_type,manufacturer,model,unit_group,installation_date,calibration_date,sensor_status
+EG-DW-0001-RAW_INTAKE,EG-DW-0001,Cairo Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,ABB,MP-200,mixed,2022-06-17,2024-08-02,Active
+EG-DW-0001-SEDIMENTATION_OUTLET,EG-DW-0001,Cairo Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Siemens,CL-210,mixed,2022-06-17,2023-10-22,Active
+EG-DW-0001-FILTRATION_OUTLET,EG-DW-0001,Cairo Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Endress+Hauser,BackwashEye,mixed,2022-06-17,2025-03-03,Faulty
+EG-DW-0001-FINAL_OUTLET,EG-DW-0001,Cairo Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,Endress+Hauser,OutletGuard-X,mixed,2022-06-17,2025-02-10,Maintenance
+EG-DW-0002-RAW_INTAKE,EG-DW-0002,Cairo Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,ABB,MP-100,mixed,2022-09-12,2024-06-17,Active
+EG-DW-0002-SEDIMENTATION_OUTLET,EG-DW-0002,Cairo Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Yokogawa,SettloTrack-5,mixed,2022-09-12,2024-03-11,Active
+EG-DW-0002-FILTRATION_OUTLET,EG-DW-0002,Cairo Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Siemens,FLT-330,mixed,2022-09-12,2026-07-09,Active
+EG-DW-0002-FINAL_OUTLET,EG-DW-0002,Cairo Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,ABB,ChloroSafe,mixed,2022-09-12,2023-09-08,Active
+EG-DW-0003-RAW_INTAKE,EG-DW-0003,Giza Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,Endress+Hauser,AquaSense-X,mixed,2017-06-19,2026-07-24,Active
+EG-DW-0003-SEDIMENTATION_OUTLET,EG-DW-0003,Giza Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,ABB,Clarifier-Pro,mixed,2017-06-19,2024-04-10,Faulty
+EG-DW-0003-FILTRATION_OUTLET,EG-DW-0003,Giza Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Endress+Hauser,FLT-330,mixed,2017-06-19,2026-02-07,Active
+EG-DW-0003-FINAL_OUTLET,EG-DW-0003,Giza Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,ABB,OutletGuard-X,mixed,2017-06-19,2026-04-11,Active
+EG-DW-0004-RAW_INTAKE,EG-DW-0004,Giza Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,ABB,AquaSense-X,mixed,2015-07-06,2025-09-01,Active
+EG-DW-0004-SEDIMENTATION_OUTLET,EG-DW-0004,Giza Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Endress+Hauser,SettloTrack-5,mixed,2015-07-06,2024-05-17,Active
+EG-DW-0004-FILTRATION_OUTLET,EG-DW-0004,Giza Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Hach,FilterSense-9,mixed,2015-07-06,2024-08-27,Maintenance
+EG-DW-0004-FINAL_OUTLET,EG-DW-0004,Giza Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,Endress+Hauser,OutletGuard-X,mixed,2015-07-06,2026-02-13,Active
+EG-DW-0005-RAW_INTAKE,EG-DW-0005,Alexandria Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,Endress+Hauser,MP-100,mixed,2021-08-21,2025-07-22,Active
+EG-DW-0005-SEDIMENTATION_OUTLET,EG-DW-0005,Alexandria Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,ABB,CL-210,mixed,2021-08-21,2024-02-05,Active
+EG-DW-0005-FILTRATION_OUTLET,EG-DW-0005,Alexandria Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Endress+Hauser,FLT-330,mixed,2021-08-21,2026-01-26,Active
+EG-DW-0005-FINAL_OUTLET,EG-DW-0005,Alexandria Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,ABB,OutletGuard-X,mixed,2021-08-21,2025-07-01,Active
+EG-DW-0006-RAW_INTAKE,EG-DW-0006,Alexandria Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,Endress+Hauser,MP-100,mixed,2014-09-27,2024-04-19,Active
+EG-DW-0006-SEDIMENTATION_OUTLET,EG-DW-0006,Alexandria Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Yokogawa,SettloTrack-5,mixed,2014-09-27,2026-05-14,Active
+EG-DW-0006-FILTRATION_OUTLET,EG-DW-0006,Alexandria Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,ABB,BackwashEye,mixed,2014-09-27,2026-02-07,Active
+EG-DW-0006-FINAL_OUTLET,EG-DW-0006,Alexandria Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,Yokogawa,OutletGuard-X,mixed,2014-09-27,2026-11-16,Active
+EG-DW-0007-RAW_INTAKE,EG-DW-0007,Dakahlia Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,Yokogawa,MP-200,mixed,2016-05-02,2026-09-04,Active
+EG-DW-0007-SEDIMENTATION_OUTLET,EG-DW-0007,Dakahlia Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Endress+Hauser,SettloTrack-5,mixed,2016-05-02,2025-11-19,Active
+EG-DW-0007-FILTRATION_OUTLET,EG-DW-0007,Dakahlia Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Siemens,BackwashEye,mixed,2016-05-02,2025-04-01,Active
+EG-DW-0007-FINAL_OUTLET,EG-DW-0007,Dakahlia Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,ABB,FQ-500,mixed,2016-05-02,2026-03-08,Active
+EG-DW-0008-RAW_INTAKE,EG-DW-0008,Dakahlia Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,Hach,AquaSense-X,mixed,2005-03-26,2026-10-16,Active
+EG-DW-0008-SEDIMENTATION_OUTLET,EG-DW-0008,Dakahlia Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,ABB,Clarifier-Pro,mixed,2005-03-26,2025-01-04,Active
+EG-DW-0008-FILTRATION_OUTLET,EG-DW-0008,Dakahlia Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,ABB,BackwashEye,mixed,2005-03-26,2025-04-05,Active
+EG-DW-0008-FINAL_OUTLET,EG-DW-0008,Dakahlia Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,Hach,ChloroSafe,mixed,2005-03-26,2023-07-03,Faulty
+EG-DW-0009-RAW_INTAKE,EG-DW-0009,Red Sea Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,Yokogawa,MP-200,mixed,2024-12-25,2023-06-02,Active
+EG-DW-0009-SEDIMENTATION_OUTLET,EG-DW-0009,Red Sea Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Yokogawa,SettloTrack-5,mixed,2024-12-25,2023-01-05,Maintenance
+EG-DW-0009-FILTRATION_OUTLET,EG-DW-0009,Red Sea Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Hach,FilterSense-9,mixed,2024-12-25,2024-07-28,Active
+EG-DW-0009-FINAL_OUTLET,EG-DW-0009,Red Sea Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,Siemens,ChloroSafe,mixed,2024-12-25,2024-09-07,Active
+EG-DW-0010-RAW_INTAKE,EG-DW-0010,Red Sea Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,ABB,MP-100,mixed,2016-08-18,2025-07-06,Active
+EG-DW-0010-SEDIMENTATION_OUTLET,EG-DW-0010,Red Sea Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Yokogawa,Clarifier-Pro,mixed,2016-08-18,2024-12-18,Active
+EG-DW-0010-FILTRATION_OUTLET,EG-DW-0010,Red Sea Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Yokogawa,BackwashEye,mixed,2016-08-18,2025-04-10,Active
+EG-DW-0010-FINAL_OUTLET,EG-DW-0010,Red Sea Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,Hach,OutletGuard-X,mixed,2016-08-18,2024-07-28,Active
+EG-DW-0011-RAW_INTAKE,EG-DW-0011,Beheira Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,Siemens,MP-200,mixed,2005-11-05,2024-08-27,Active
+EG-DW-0011-SEDIMENTATION_OUTLET,EG-DW-0011,Beheira Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Hach,Clarifier-Pro,mixed,2005-11-05,2023-12-12,Active
+EG-DW-0011-FILTRATION_OUTLET,EG-DW-0011,Beheira Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Endress+Hauser,FLT-330,mixed,2005-11-05,2025-03-26,Active
+EG-DW-0011-FINAL_OUTLET,EG-DW-0011,Beheira Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,Hach,FQ-500,mixed,2005-11-05,2026-11-27,Active
+EG-DW-0012-RAW_INTAKE,EG-DW-0012,Beheira Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,Endress+Hauser,MP-100,mixed,2020-01-27,2023-02-16,Active
+EG-DW-0012-SEDIMENTATION_OUTLET,EG-DW-0012,Beheira Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Endress+Hauser,SettloTrack-5,mixed,2020-01-27,2024-03-03,Active
+EG-DW-0012-FILTRATION_OUTLET,EG-DW-0012,Beheira Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,ABB,FLT-330,mixed,2020-01-27,2026-11-14,Active
+EG-DW-0012-FINAL_OUTLET,EG-DW-0012,Beheira Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,Endress+Hauser,OutletGuard-X,mixed,2020-01-27,2024-07-26,Active
+EG-DW-0013-RAW_INTAKE,EG-DW-0013,Fayoum Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,ABB,MP-100,mixed,2012-07-26,2025-05-02,Active
+EG-DW-0013-SEDIMENTATION_OUTLET,EG-DW-0013,Fayoum Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Endress+Hauser,CL-210,mixed,2012-07-26,2025-04-17,Active
+EG-DW-0013-FILTRATION_OUTLET,EG-DW-0013,Fayoum Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Siemens,FilterSense-9,mixed,2012-07-26,2024-09-24,Active
+EG-DW-0013-FINAL_OUTLET,EG-DW-0013,Fayoum Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,Yokogawa,OutletGuard-X,mixed,2012-07-26,2023-07-13,Active
+EG-DW-0014-RAW_INTAKE,EG-DW-0014,Fayoum Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,Endress+Hauser,AquaSense-X,mixed,2019-11-17,2024-12-11,Active
+EG-DW-0014-SEDIMENTATION_OUTLET,EG-DW-0014,Fayoum Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Yokogawa,Clarifier-Pro,mixed,2019-11-17,2023-07-26,Active
+EG-DW-0014-FILTRATION_OUTLET,EG-DW-0014,Fayoum Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,ABB,FLT-330,mixed,2019-11-17,2025-11-18,Active
+EG-DW-0014-FINAL_OUTLET,EG-DW-0014,Fayoum Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,ABB,FQ-500,mixed,2019-11-17,2023-11-03,Active
+EG-DW-0015-RAW_INTAKE,EG-DW-0015,Gharbia Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,Siemens,MP-200,mixed,2009-09-04,2024-07-11,Maintenance
+EG-DW-0015-SEDIMENTATION_OUTLET,EG-DW-0015,Gharbia Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,ABB,CL-210,mixed,2009-09-04,2024-01-16,Active
+EG-DW-0015-FILTRATION_OUTLET,EG-DW-0015,Gharbia Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Siemens,BackwashEye,mixed,2009-09-04,2023-09-09,Active
+EG-DW-0015-FINAL_OUTLET,EG-DW-0015,Gharbia Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,Hach,OutletGuard-X,mixed,2009-09-04,2023-05-11,Active
+EG-DW-0016-RAW_INTAKE,EG-DW-0016,Gharbia Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,Hach,MP-200,mixed,2011-12-11,2023-09-19,Active
+EG-DW-0016-SEDIMENTATION_OUTLET,EG-DW-0016,Gharbia Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Hach,SettloTrack-5,mixed,2011-12-11,2026-10-08,Active
+EG-DW-0016-FILTRATION_OUTLET,EG-DW-0016,Gharbia Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Hach,BackwashEye,mixed,2011-12-11,2026-08-08,Active
+EG-DW-0016-FINAL_OUTLET,EG-DW-0016,Gharbia Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,ABB,ChloroSafe,mixed,2011-12-11,2023-07-15,Active
+EG-DW-0017-RAW_INTAKE,EG-DW-0017,Ismailia Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,Siemens,MP-200,mixed,2024-04-07,2023-07-14,Maintenance
+EG-DW-0017-SEDIMENTATION_OUTLET,EG-DW-0017,Ismailia Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Siemens,CL-210,mixed,2024-04-07,2025-08-13,Active
+EG-DW-0017-FILTRATION_OUTLET,EG-DW-0017,Ismailia Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Siemens,FilterSense-9,mixed,2024-04-07,2025-07-17,Active
+EG-DW-0017-FINAL_OUTLET,EG-DW-0017,Ismailia Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,ABB,ChloroSafe,mixed,2024-04-07,2026-03-03,Active
+EG-DW-0018-RAW_INTAKE,EG-DW-0018,Ismailia Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,Hach,AquaSense-X,mixed,2019-11-28,2025-07-28,Active
+EG-DW-0018-SEDIMENTATION_OUTLET,EG-DW-0018,Ismailia Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Endress+Hauser,Clarifier-Pro,mixed,2019-11-28,2026-07-18,Active
+EG-DW-0018-FILTRATION_OUTLET,EG-DW-0018,Ismailia Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,ABB,BackwashEye,mixed,2019-11-28,2023-02-16,Active
+EG-DW-0018-FINAL_OUTLET,EG-DW-0018,Ismailia Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,Hach,OutletGuard-X,mixed,2019-11-28,2026-09-17,Active
+EG-DW-0019-RAW_INTAKE,EG-DW-0019,Menofia Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,Endress+Hauser,MP-100,mixed,2019-03-11,2026-06-27,Active
+EG-DW-0019-SEDIMENTATION_OUTLET,EG-DW-0019,Menofia Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Yokogawa,SettloTrack-5,mixed,2019-03-11,2024-11-12,Active
+EG-DW-0019-FILTRATION_OUTLET,EG-DW-0019,Menofia Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Endress+Hauser,BackwashEye,mixed,2019-03-11,2025-10-21,Active
+EG-DW-0019-FINAL_OUTLET,EG-DW-0019,Menofia Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,Siemens,ChloroSafe,mixed,2019-03-11,2025-02-08,Active
+EG-DW-0020-RAW_INTAKE,EG-DW-0020,Menofia Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,Endress+Hauser,MP-100,mixed,2011-06-16,2025-08-06,Active
+EG-DW-0020-SEDIMENTATION_OUTLET,EG-DW-0020,Menofia Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Hach,CL-210,mixed,2011-06-16,2026-07-12,Active
+EG-DW-0020-FILTRATION_OUTLET,EG-DW-0020,Menofia Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Hach,FilterSense-9,mixed,2011-06-16,2026-08-07,Active
+EG-DW-0020-FINAL_OUTLET,EG-DW-0020,Menofia Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,ABB,OutletGuard-X,mixed,2011-06-16,2024-12-02,Active
+EG-DW-0021-RAW_INTAKE,EG-DW-0021,Minya Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,Hach,MP-100,mixed,2021-07-18,2025-03-06,Active
+EG-DW-0021-SEDIMENTATION_OUTLET,EG-DW-0021,Minya Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Siemens,CL-210,mixed,2021-07-18,2023-02-06,Active
+EG-DW-0021-FILTRATION_OUTLET,EG-DW-0021,Minya Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Siemens,BackwashEye,mixed,2021-07-18,2026-09-07,Active
+EG-DW-0021-FINAL_OUTLET,EG-DW-0021,Minya Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,Siemens,FQ-500,mixed,2021-07-18,2026-03-11,Active
+EG-DW-0022-RAW_INTAKE,EG-DW-0022,Minya Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,Hach,MP-100,mixed,2017-01-10,2025-09-09,Active
+EG-DW-0022-SEDIMENTATION_OUTLET,EG-DW-0022,Minya Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Hach,SettloTrack-5,mixed,2017-01-10,2023-03-27,Active
+EG-DW-0022-FILTRATION_OUTLET,EG-DW-0022,Minya Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Yokogawa,FilterSense-9,mixed,2017-01-10,2026-04-16,Active
+EG-DW-0022-FINAL_OUTLET,EG-DW-0022,Minya Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,Yokogawa,FQ-500,mixed,2017-01-10,2025-01-16,Active
+EG-DW-0023-RAW_INTAKE,EG-DW-0023,Qalyubia Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,Hach,MP-200,mixed,2007-02-28,2024-08-07,Active
+EG-DW-0023-SEDIMENTATION_OUTLET,EG-DW-0023,Qalyubia Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Endress+Hauser,Clarifier-Pro,mixed,2007-02-28,2023-08-04,Active
+EG-DW-0023-FILTRATION_OUTLET,EG-DW-0023,Qalyubia Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Endress+Hauser,FilterSense-9,mixed,2007-02-28,2025-09-11,Active
+EG-DW-0023-FINAL_OUTLET,EG-DW-0023,Qalyubia Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,Hach,OutletGuard-X,mixed,2007-02-28,2023-07-25,Active
+EG-DW-0024-RAW_INTAKE,EG-DW-0024,Qalyubia Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,Siemens,AquaSense-X,mixed,2014-11-14,2024-11-08,Active
+EG-DW-0024-SEDIMENTATION_OUTLET,EG-DW-0024,Qalyubia Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Hach,SettloTrack-5,mixed,2014-11-14,2025-04-25,Active
+EG-DW-0024-FILTRATION_OUTLET,EG-DW-0024,Qalyubia Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,ABB,FLT-330,mixed,2014-11-14,2025-06-10,Active
+EG-DW-0024-FINAL_OUTLET,EG-DW-0024,Qalyubia Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,Yokogawa,OutletGuard-X,mixed,2014-11-14,2025-09-05,Active
+EG-DW-0025-RAW_INTAKE,EG-DW-0025,New Valley Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,Endress+Hauser,MP-100,mixed,2024-10-08,2026-11-20,Active
+EG-DW-0025-SEDIMENTATION_OUTLET,EG-DW-0025,New Valley Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Endress+Hauser,Clarifier-Pro,mixed,2024-10-08,2026-05-14,Active
+EG-DW-0025-FILTRATION_OUTLET,EG-DW-0025,New Valley Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,ABB,FLT-330,mixed,2024-10-08,2025-11-06,Active
+EG-DW-0025-FINAL_OUTLET,EG-DW-0025,New Valley Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,Siemens,FQ-500,mixed,2024-10-08,2023-05-06,Active
+EG-DW-0026-RAW_INTAKE,EG-DW-0026,New Valley Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,Siemens,MP-200,mixed,2021-10-11,2023-05-02,Active
+EG-DW-0026-SEDIMENTATION_OUTLET,EG-DW-0026,New Valley Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Siemens,CL-210,mixed,2021-10-11,2023-09-24,Maintenance
+EG-DW-0026-FILTRATION_OUTLET,EG-DW-0026,New Valley Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Siemens,FilterSense-9,mixed,2021-10-11,2024-03-01,Active
+EG-DW-0026-FINAL_OUTLET,EG-DW-0026,New Valley Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,ABB,ChloroSafe,mixed,2021-10-11,2026-02-15,Active
+EG-DW-0027-RAW_INTAKE,EG-DW-0027,Suez Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,Hach,MP-200,mixed,2016-07-08,2026-02-09,Active
+EG-DW-0027-SEDIMENTATION_OUTLET,EG-DW-0027,Suez Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Endress+Hauser,CL-210,mixed,2016-07-08,2023-11-04,Active
+EG-DW-0027-FILTRATION_OUTLET,EG-DW-0027,Suez Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Siemens,FLT-330,mixed,2016-07-08,2023-11-13,Active
+EG-DW-0027-FINAL_OUTLET,EG-DW-0027,Suez Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,Hach,OutletGuard-X,mixed,2016-07-08,2024-08-06,Active
+EG-DW-0028-RAW_INTAKE,EG-DW-0028,Suez Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,Endress+Hauser,AquaSense-X,mixed,2015-02-26,2024-11-01,Active
+EG-DW-0028-SEDIMENTATION_OUTLET,EG-DW-0028,Suez Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Yokogawa,CL-210,mixed,2015-02-26,2024-02-21,Active
+EG-DW-0028-FILTRATION_OUTLET,EG-DW-0028,Suez Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Hach,FLT-330,mixed,2015-02-26,2026-07-11,Active
+EG-DW-0028-FINAL_OUTLET,EG-DW-0028,Suez Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,ABB,OutletGuard-X,mixed,2015-02-26,2026-10-20,Active
+EG-DW-0029-RAW_INTAKE,EG-DW-0029,Aswan Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,Hach,MP-100,mixed,2022-09-06,2024-07-10,Active
+EG-DW-0029-SEDIMENTATION_OUTLET,EG-DW-0029,Aswan Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,ABB,Clarifier-Pro,mixed,2022-09-06,2024-02-14,Active
+EG-DW-0029-FILTRATION_OUTLET,EG-DW-0029,Aswan Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Hach,BackwashEye,mixed,2022-09-06,2023-10-20,Active
+EG-DW-0029-FINAL_OUTLET,EG-DW-0029,Aswan Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,ABB,OutletGuard-X,mixed,2022-09-06,2024-02-24,Active
+EG-DW-0030-RAW_INTAKE,EG-DW-0030,Aswan Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,Yokogawa,AquaSense-X,mixed,2011-04-13,2025-06-11,Active
+EG-DW-0030-SEDIMENTATION_OUTLET,EG-DW-0030,Aswan Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Endress+Hauser,SettloTrack-5,mixed,2011-04-13,2023-09-01,Active
+EG-DW-0030-FILTRATION_OUTLET,EG-DW-0030,Aswan Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Hach,FilterSense-9,mixed,2011-04-13,2026-04-07,Maintenance
+EG-DW-0030-FINAL_OUTLET,EG-DW-0030,Aswan Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,Hach,FQ-500,mixed,2011-04-13,2023-10-16,Active
+EG-DW-0031-RAW_INTAKE,EG-DW-0031,Asyut Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,Hach,AquaSense-X,mixed,2006-02-22,2025-06-26,Active
+EG-DW-0031-SEDIMENTATION_OUTLET,EG-DW-0031,Asyut Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Endress+Hauser,Clarifier-Pro,mixed,2006-02-22,2023-04-18,Maintenance
+EG-DW-0031-FILTRATION_OUTLET,EG-DW-0031,Asyut Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Siemens,FLT-330,mixed,2006-02-22,2026-08-05,Active
+EG-DW-0031-FINAL_OUTLET,EG-DW-0031,Asyut Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,Endress+Hauser,FQ-500,mixed,2006-02-22,2025-11-13,Maintenance
+EG-DW-0032-RAW_INTAKE,EG-DW-0032,Asyut Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,Hach,MP-200,mixed,2005-12-08,2025-04-25,Active
+EG-DW-0032-SEDIMENTATION_OUTLET,EG-DW-0032,Asyut Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Endress+Hauser,SettloTrack-5,mixed,2005-12-08,2026-01-19,Active
+EG-DW-0032-FILTRATION_OUTLET,EG-DW-0032,Asyut Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,ABB,BackwashEye,mixed,2005-12-08,2026-01-14,Active
+EG-DW-0032-FINAL_OUTLET,EG-DW-0032,Asyut Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,Hach,ChloroSafe,mixed,2005-12-08,2026-07-15,Active
+EG-DW-0033-RAW_INTAKE,EG-DW-0033,Beni Suef Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,Siemens,MP-100,mixed,2007-04-02,2023-04-17,Active
+EG-DW-0033-SEDIMENTATION_OUTLET,EG-DW-0033,Beni Suef Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Yokogawa,CL-210,mixed,2007-04-02,2023-04-22,Active
+EG-DW-0033-FILTRATION_OUTLET,EG-DW-0033,Beni Suef Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Siemens,FilterSense-9,mixed,2007-04-02,2024-11-17,Active
+EG-DW-0033-FINAL_OUTLET,EG-DW-0033,Beni Suef Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,Siemens,FQ-500,mixed,2007-04-02,2024-09-13,Active
+EG-DW-0034-RAW_INTAKE,EG-DW-0034,Beni Suef Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,ABB,AquaSense-X,mixed,2009-06-08,2024-09-26,Active
+EG-DW-0034-SEDIMENTATION_OUTLET,EG-DW-0034,Beni Suef Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Endress+Hauser,CL-210,mixed,2009-06-08,2024-05-17,Active
+EG-DW-0034-FILTRATION_OUTLET,EG-DW-0034,Beni Suef Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Endress+Hauser,FLT-330,mixed,2009-06-08,2025-06-14,Active
+EG-DW-0034-FINAL_OUTLET,EG-DW-0034,Beni Suef Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,ABB,OutletGuard-X,mixed,2009-06-08,2023-12-09,Active
+EG-DW-0035-RAW_INTAKE,EG-DW-0035,Port Said Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,Siemens,MP-100,mixed,2010-03-09,2025-01-28,Active
+EG-DW-0035-SEDIMENTATION_OUTLET,EG-DW-0035,Port Said Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Endress+Hauser,SettloTrack-5,mixed,2010-03-09,2026-10-03,Active
+EG-DW-0035-FILTRATION_OUTLET,EG-DW-0035,Port Said Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Endress+Hauser,BackwashEye,mixed,2010-03-09,2026-10-13,Active
+EG-DW-0035-FINAL_OUTLET,EG-DW-0035,Port Said Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,ABB,FQ-500,mixed,2010-03-09,2025-09-22,Active
+EG-DW-0036-RAW_INTAKE,EG-DW-0036,Port Said Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,Siemens,AquaSense-X,mixed,2024-03-10,2026-11-03,Active
+EG-DW-0036-SEDIMENTATION_OUTLET,EG-DW-0036,Port Said Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Hach,Clarifier-Pro,mixed,2024-03-10,2024-10-23,Active
+EG-DW-0036-FILTRATION_OUTLET,EG-DW-0036,Port Said Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Yokogawa,FLT-330,mixed,2024-03-10,2025-10-06,Faulty
+EG-DW-0036-FINAL_OUTLET,EG-DW-0036,Port Said Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,Siemens,ChloroSafe,mixed,2024-03-10,2026-02-14,Active
+EG-DW-0037-RAW_INTAKE,EG-DW-0037,Damietta Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,Hach,MP-200,mixed,2009-02-13,2026-01-23,Active
+EG-DW-0037-SEDIMENTATION_OUTLET,EG-DW-0037,Damietta Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Yokogawa,Clarifier-Pro,mixed,2009-02-13,2025-06-09,Active
+EG-DW-0037-FILTRATION_OUTLET,EG-DW-0037,Damietta Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Yokogawa,FLT-330,mixed,2009-02-13,2026-03-02,Active
+EG-DW-0037-FINAL_OUTLET,EG-DW-0037,Damietta Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,Endress+Hauser,FQ-500,mixed,2009-02-13,2023-11-04,Maintenance
+EG-DW-0038-RAW_INTAKE,EG-DW-0038,Damietta Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,Endress+Hauser,MP-200,mixed,2011-12-08,2023-07-23,Active
+EG-DW-0038-SEDIMENTATION_OUTLET,EG-DW-0038,Damietta Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Endress+Hauser,CL-210,mixed,2011-12-08,2025-01-26,Active
+EG-DW-0038-FILTRATION_OUTLET,EG-DW-0038,Damietta Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,ABB,BackwashEye,mixed,2011-12-08,2023-04-08,Active
+EG-DW-0038-FINAL_OUTLET,EG-DW-0038,Damietta Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,Endress+Hauser,ChloroSafe,mixed,2011-12-08,2025-08-24,Active
+EG-DW-0039-RAW_INTAKE,EG-DW-0039,Sharkia Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,Siemens,MP-100,mixed,2005-01-04,2023-04-20,Active
+EG-DW-0039-SEDIMENTATION_OUTLET,EG-DW-0039,Sharkia Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Siemens,SettloTrack-5,mixed,2005-01-04,2026-04-10,Active
+EG-DW-0039-FILTRATION_OUTLET,EG-DW-0039,Sharkia Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Endress+Hauser,FLT-330,mixed,2005-01-04,2026-12-16,Active
+EG-DW-0039-FINAL_OUTLET,EG-DW-0039,Sharkia Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,Siemens,FQ-500,mixed,2005-01-04,2023-07-22,Active
+EG-DW-0040-RAW_INTAKE,EG-DW-0040,Sharkia Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,ABB,AquaSense-X,mixed,2006-03-05,2023-08-22,Active
+EG-DW-0040-SEDIMENTATION_OUTLET,EG-DW-0040,Sharkia Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Endress+Hauser,Clarifier-Pro,mixed,2006-03-05,2023-07-13,Active
+EG-DW-0040-FILTRATION_OUTLET,EG-DW-0040,Sharkia Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Hach,BackwashEye,mixed,2006-03-05,2023-03-12,Active
+EG-DW-0040-FINAL_OUTLET,EG-DW-0040,Sharkia Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,Hach,ChloroSafe,mixed,2006-03-05,2025-07-21,Active
+EG-DW-0041-RAW_INTAKE,EG-DW-0041,South Sinai Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,Siemens,AquaSense-X,mixed,2018-09-27,2024-09-10,Active
+EG-DW-0041-SEDIMENTATION_OUTLET,EG-DW-0041,South Sinai Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Siemens,SettloTrack-5,mixed,2018-09-27,2024-04-04,Active
+EG-DW-0041-FILTRATION_OUTLET,EG-DW-0041,South Sinai Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Yokogawa,BackwashEye,mixed,2018-09-27,2026-03-09,Active
+EG-DW-0041-FINAL_OUTLET,EG-DW-0041,South Sinai Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,Yokogawa,OutletGuard-X,mixed,2018-09-27,2025-10-13,Maintenance
+EG-DW-0042-RAW_INTAKE,EG-DW-0042,South Sinai Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,Siemens,AquaSense-X,mixed,2011-11-15,2026-03-19,Active
+EG-DW-0042-SEDIMENTATION_OUTLET,EG-DW-0042,South Sinai Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,ABB,SettloTrack-5,mixed,2011-11-15,2025-06-11,Maintenance
+EG-DW-0042-FILTRATION_OUTLET,EG-DW-0042,South Sinai Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Siemens,BackwashEye,mixed,2011-11-15,2023-07-11,Active
+EG-DW-0042-FINAL_OUTLET,EG-DW-0042,South Sinai Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,ABB,OutletGuard-X,mixed,2011-11-15,2023-05-15,Active
+EG-DW-0043-RAW_INTAKE,EG-DW-0043,Kafr El Sheikh Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,Endress+Hauser,MP-200,mixed,2020-03-26,2025-07-02,Active
+EG-DW-0043-SEDIMENTATION_OUTLET,EG-DW-0043,Kafr El Sheikh Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Endress+Hauser,SettloTrack-5,mixed,2020-03-26,2026-12-12,Active
+EG-DW-0043-FILTRATION_OUTLET,EG-DW-0043,Kafr El Sheikh Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Yokogawa,FilterSense-9,mixed,2020-03-26,2026-05-15,Active
+EG-DW-0043-FINAL_OUTLET,EG-DW-0043,Kafr El Sheikh Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,Siemens,ChloroSafe,mixed,2020-03-26,2026-02-19,Active
+EG-DW-0044-RAW_INTAKE,EG-DW-0044,Kafr El Sheikh Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,Hach,MP-200,mixed,2005-04-03,2023-05-08,Active
+EG-DW-0044-SEDIMENTATION_OUTLET,EG-DW-0044,Kafr El Sheikh Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,ABB,Clarifier-Pro,mixed,2005-04-03,2023-11-28,Faulty
+EG-DW-0044-FILTRATION_OUTLET,EG-DW-0044,Kafr El Sheikh Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Yokogawa,FilterSense-9,mixed,2005-04-03,2023-01-04,Active
+EG-DW-0044-FINAL_OUTLET,EG-DW-0044,Kafr El Sheikh Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,Yokogawa,OutletGuard-X,mixed,2005-04-03,2026-01-04,Active
+EG-DW-0045-RAW_INTAKE,EG-DW-0045,Matrouh Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,Hach,AquaSense-X,mixed,2018-11-18,2023-04-22,Active
+EG-DW-0045-SEDIMENTATION_OUTLET,EG-DW-0045,Matrouh Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,ABB,Clarifier-Pro,mixed,2018-11-18,2026-02-14,Active
+EG-DW-0045-FILTRATION_OUTLET,EG-DW-0045,Matrouh Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Siemens,FLT-330,mixed,2018-11-18,2025-10-07,Active
+EG-DW-0045-FINAL_OUTLET,EG-DW-0045,Matrouh Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,Hach,ChloroSafe,mixed,2018-11-18,2024-06-03,Active
+EG-DW-0046-RAW_INTAKE,EG-DW-0046,Matrouh Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,Hach,MP-200,mixed,2024-05-28,2025-12-05,Active
+EG-DW-0046-SEDIMENTATION_OUTLET,EG-DW-0046,Matrouh Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Hach,SettloTrack-5,mixed,2024-05-28,2025-11-11,Active
+EG-DW-0046-FILTRATION_OUTLET,EG-DW-0046,Matrouh Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Yokogawa,FilterSense-9,mixed,2024-05-28,2025-06-24,Active
+EG-DW-0046-FINAL_OUTLET,EG-DW-0046,Matrouh Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,ABB,OutletGuard-X,mixed,2024-05-28,2024-05-21,Active
+EG-DW-0047-RAW_INTAKE,EG-DW-0047,Luxor Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,Yokogawa,AquaSense-X,mixed,2007-06-12,2024-01-14,Active
+EG-DW-0047-SEDIMENTATION_OUTLET,EG-DW-0047,Luxor Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,ABB,CL-210,mixed,2007-06-12,2026-04-23,Active
+EG-DW-0047-FILTRATION_OUTLET,EG-DW-0047,Luxor Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Yokogawa,BackwashEye,mixed,2007-06-12,2026-12-07,Active
+EG-DW-0047-FINAL_OUTLET,EG-DW-0047,Luxor Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,Endress+Hauser,OutletGuard-X,mixed,2007-06-12,2023-03-11,Active
+EG-DW-0048-RAW_INTAKE,EG-DW-0048,Luxor Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,Yokogawa,AquaSense-X,mixed,2018-11-21,2025-01-26,Active
+EG-DW-0048-SEDIMENTATION_OUTLET,EG-DW-0048,Luxor Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Yokogawa,CL-210,mixed,2018-11-21,2024-02-07,Active
+EG-DW-0048-FILTRATION_OUTLET,EG-DW-0048,Luxor Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Yokogawa,BackwashEye,mixed,2018-11-21,2024-09-06,Active
+EG-DW-0048-FINAL_OUTLET,EG-DW-0048,Luxor Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,Endress+Hauser,FQ-500,mixed,2018-11-21,2025-11-08,Maintenance
+EG-DW-0049-RAW_INTAKE,EG-DW-0049,Qena Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,ABB,MP-200,mixed,2010-02-10,2026-08-12,Maintenance
+EG-DW-0049-SEDIMENTATION_OUTLET,EG-DW-0049,Qena Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Hach,SettloTrack-5,mixed,2010-02-10,2026-08-16,Active
+EG-DW-0049-FILTRATION_OUTLET,EG-DW-0049,Qena Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,ABB,FLT-330,mixed,2010-02-10,2023-04-11,Active
+EG-DW-0049-FINAL_OUTLET,EG-DW-0049,Qena Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,Endress+Hauser,ChloroSafe,mixed,2010-02-10,2024-11-22,Active
+EG-DW-0050-RAW_INTAKE,EG-DW-0050,Qena Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,ABB,MP-100,mixed,2006-07-16,2023-03-27,Active
+EG-DW-0050-SEDIMENTATION_OUTLET,EG-DW-0050,Qena Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Hach,SettloTrack-5,mixed,2006-07-16,2024-11-09,Active
+EG-DW-0050-FILTRATION_OUTLET,EG-DW-0050,Qena Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Hach,FilterSense-9,mixed,2006-07-16,2026-03-17,Active
+EG-DW-0050-FINAL_OUTLET,EG-DW-0050,Qena Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,Endress+Hauser,OutletGuard-X,mixed,2006-07-16,2024-06-06,Active
+EG-DW-0051-RAW_INTAKE,EG-DW-0051,North Sinai Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,Yokogawa,MP-200,mixed,2005-12-21,2024-08-09,Active
+EG-DW-0051-SEDIMENTATION_OUTLET,EG-DW-0051,North Sinai Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,ABB,SettloTrack-5,mixed,2005-12-21,2024-07-19,Active
+EG-DW-0051-FILTRATION_OUTLET,EG-DW-0051,North Sinai Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Yokogawa,FilterSense-9,mixed,2005-12-21,2026-03-03,Active
+EG-DW-0051-FINAL_OUTLET,EG-DW-0051,North Sinai Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,Yokogawa,ChloroSafe,mixed,2005-12-21,2025-06-13,Active
+EG-DW-0052-RAW_INTAKE,EG-DW-0052,North Sinai Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,ABB,MP-200,mixed,2012-03-05,2023-11-04,Active
+EG-DW-0052-SEDIMENTATION_OUTLET,EG-DW-0052,North Sinai Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,ABB,CL-210,mixed,2012-03-05,2025-12-28,Active
+EG-DW-0052-FILTRATION_OUTLET,EG-DW-0052,North Sinai Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Endress+Hauser,BackwashEye,mixed,2012-03-05,2025-03-08,Maintenance
+EG-DW-0052-FINAL_OUTLET,EG-DW-0052,North Sinai Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,Yokogawa,FQ-500,mixed,2012-03-05,2026-10-07,Active
+EG-DW-0053-RAW_INTAKE,EG-DW-0053,Sohag Drinking Water Plant 1 Raw Intake Sensor,raw_intake,multi-parameter,Hach,AquaSense-X,mixed,2017-09-18,2025-10-09,Active
+EG-DW-0053-SEDIMENTATION_OUTLET,EG-DW-0053,Sohag Drinking Water Plant 1 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,Yokogawa,Clarifier-Pro,mixed,2017-09-18,2025-07-27,Active
+EG-DW-0053-FILTRATION_OUTLET,EG-DW-0053,Sohag Drinking Water Plant 1 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Yokogawa,FLT-330,mixed,2017-09-18,2026-03-06,Active
+EG-DW-0053-FINAL_OUTLET,EG-DW-0053,Sohag Drinking Water Plant 1 Final Outlet Sensor,final_outlet,final-quality-monitor,Hach,ChloroSafe,mixed,2017-09-18,2023-09-09,Active
+EG-DW-0054-RAW_INTAKE,EG-DW-0054,Sohag Drinking Water Plant 2 Raw Intake Sensor,raw_intake,multi-parameter,Yokogawa,MP-200,mixed,2009-05-08,2025-03-05,Active
+EG-DW-0054-SEDIMENTATION_OUTLET,EG-DW-0054,Sohag Drinking Water Plant 2 Sedimentation Outlet Sensor,sedimentation_outlet,clarifier-monitor,ABB,SettloTrack-5,mixed,2009-05-08,2026-04-24,Active
+EG-DW-0054-FILTRATION_OUTLET,EG-DW-0054,Sohag Drinking Water Plant 2 Filtration Outlet Sensor,filtration_outlet,filter-monitor,Endress+Hauser,FilterSense-9,mixed,2009-05-08,2026-03-01,Active
+EG-DW-0054-FINAL_OUTLET,EG-DW-0054,Sohag Drinking Water Plant 2 Final Outlet Sensor,final_outlet,final-quality-monitor,ABB,ChloroSafe,mixed,2009-05-08,2026-10-21,Active

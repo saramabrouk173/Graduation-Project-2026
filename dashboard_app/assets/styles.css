@@ -1,0 +1,257 @@
+/* =========================================================
+   EWIS Premium Water Dashboard Theme
+   Glassmorphism + Muted Animated Water Background
+========================================================= */
+
+:root {
+    --bg-deep: #061827;
+    --bg-ocean: #08243A;
+    --teal: #14B8A6;
+    --cyan: #22D3EE;
+    --blue: #38BDF8;
+    --green: #22C55E;
+    --yellow: #FACC15;
+    --orange: #FB923C;
+    --red: #EF4444;
+    --gray: #94A3B8;
+    --text: #E5F7FF;
+    --muted: #9FB7C9;
+    --glass: rgba(255, 255, 255, 0.095);
+    --glass-border: rgba(255, 255, 255, 0.18);
+}
+
+/* App Background */
+[data-testid="stAppViewContainer"] {
+    background:
+        radial-gradient(circle at 20% 20%, rgba(34, 211, 238, 0.16), transparent 28%),
+        radial-gradient(circle at 80% 10%, rgba(20, 184, 166, 0.12), transparent 26%),
+        linear-gradient(135deg, #061827 0%, #08243A 45%, #064E5F 100%);
+    background-size: 160% 160%;
+    animation: oceanShift 18s ease-in-out infinite;
+    color: var(--text);
+}
+
+/* Subtle moving water texture */
+[data-testid="stAppViewContainer"]::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.22;
+    background:
+        repeating-radial-gradient(
+            ellipse at 50% 50%,
+            rgba(255,255,255,0.06) 0px,
+            rgba(255,255,255,0.035) 2px,
+            transparent 7px,
+            transparent 18px
+        );
+    transform: translate3d(0,0,0);
+    animation: rippleMove 30s linear infinite;
+}
+
+/* Streamlit container */
+.block-container {
+    max-width: 100% !important;
+    padding-top: 1.2rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    padding-bottom: 2rem !important;
+    position: relative;
+    z-index: 1;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, rgba(3, 20, 35, 0.96), rgba(6, 42, 60, 0.94));
+    border-right: 1px solid rgba(255,255,255,0.12);
+}
+
+[data-testid="stSidebar"] * {
+    color: #E5F7FF;
+}
+
+/* Titles */
+.ewis-title {
+    font-size: 38px;
+    font-weight: 800;
+    letter-spacing: -0.8px;
+    color: #E5F7FF;
+    margin-bottom: 4px;
+}
+
+.ewis-subtitle {
+    color: var(--muted);
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+
+/* Glass Card */
+.glass-card {
+    background: linear-gradient(135deg, rgba(255,255,255,0.13), rgba(255,255,255,0.06));
+    border: 1px solid var(--glass-border);
+    border-radius: 22px;
+    box-shadow: 0 18px 45px rgba(0,0,0,0.22);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    padding: 18px 20px;
+    margin-bottom: 16px;
+}
+
+/* KPI Card */
+.kpi-card {
+    min-height: 128px;
+    background:
+        linear-gradient(145deg, rgba(255,255,255,0.15), rgba(255,255,255,0.06)),
+        radial-gradient(circle at top right, rgba(34, 211, 238, 0.18), transparent 35%);
+    border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 22px;
+    box-shadow: 0 16px 40px rgba(0,0,0,0.25);
+    backdrop-filter: blur(18px);
+    padding: 18px;
+    transition: all 0.22s ease;
+}
+
+.kpi-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(34, 211, 238, 0.45);
+    box-shadow: 0 22px 55px rgba(0,0,0,0.34);
+}
+
+.kpi-label {
+    color: #A7C4D9;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+
+.kpi-value {
+    color: #FFFFFF;
+    font-size: 31px;
+    font-weight: 800;
+    margin-top: 8px;
+    line-height: 1.05;
+}
+
+.kpi-hint {
+    color: #8FB3C7;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+/* Status badges */
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 11px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.status-green {
+    color: #DCFCE7;
+    background: rgba(34,197,94,0.22);
+    border: 1px solid rgba(34,197,94,0.45);
+}
+
+.status-yellow {
+    color: #FEF9C3;
+    background: rgba(250,204,21,0.22);
+    border: 1px solid rgba(250,204,21,0.45);
+}
+
+.status-orange {
+    color: #FFEDD5;
+    background: rgba(251,146,60,0.22);
+    border: 1px solid rgba(251,146,60,0.45);
+}
+
+.status-red {
+    color: #FEE2E2;
+    background: rgba(239,68,68,0.22);
+    border: 1px solid rgba(239,68,68,0.45);
+}
+
+.status-gray {
+    color: #E2E8F0;
+    background: rgba(148,163,184,0.20);
+    border: 1px solid rgba(148,163,184,0.45);
+}
+
+/* Section headings */
+.section-title {
+    font-size: 20px;
+    font-weight: 800;
+    color: #E5F7FF;
+    margin: 8px 0 12px;
+}
+
+/* Tables */
+[data-testid="stDataFrame"] {
+    border-radius: 18px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.12);
+}
+
+/* Metric tweaks */
+[data-testid="stMetric"] {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 18px;
+    padding: 14px;
+}
+
+/* Animations */
+@keyframes oceanShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 55%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes rippleMove {
+    0% { transform: translateX(-20px) translateY(-10px) scale(1); }
+    50% { transform: translateX(20px) translateY(10px) scale(1.03); }
+    100% { transform: translateX(-20px) translateY(-10px) scale(1); }
+}
+
+/* Hide Streamlit default footer */
+footer {
+    visibility: hidden;
+}
+/* =========================================================
+   FIX: Keep Streamlit content above animated background
+========================================================= */
+
+[data-testid="stAppViewContainer"] {
+    position: relative;
+    overflow: hidden;
+}
+
+[data-testid="stAppViewContainer"] > .main {
+    position: relative;
+    z-index: 2;
+}
+
+.block-container {
+    position: relative !important;
+    z-index: 5 !important;
+}
+
+[data-testid="stVerticalBlock"] {
+    position: relative;
+    z-index: 6;
+}
+
+[data-testid="stSidebar"] {
+    position: relative;
+    z-index: 10;
+}
+
+/* Make sure water overlay never covers content */
+[data-testid="stAppViewContainer"]::before {
+    z-index: 0 !important;
+    pointer-events: none !important;
+}
