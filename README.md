@@ -1,28 +1,31 @@
-# EWIS — Enterprise Water Intelligence System
+# 🌊 EWIS — Enterprise Water Intelligence System
 
-EWIS is an end-to-end data engineering and business intelligence project for monitoring drinking-water treatment stations.
+## 📖 Project Overview
 
-The system simulates sensor telemetry, streams operational readings, processes and validates water-quality signals, builds SQL Server analytical marts, and exposes an interactive Streamlit dashboard for executive and operational monitoring.
+**EWIS** is an end-to-end **Data Engineering & Business Intelligence** platform designed for monitoring drinking-water treatment stations.
 
----
+The system simulates sensor telemetry, streams operational readings, processes and validates water-quality signals, builds SQL Server analytical marts, and exposes an interactive **Streamlit dashboard** for executive and operational monitoring.
 
-## Overview
-
-Water-treatment stations generate continuous telemetry from sensors and operational systems. EWIS transforms this telemetry into reliable business intelligence by providing:
-
-- Station-level operational monitoring
-- Water Quality Index tracking
-- Alert detection and monitoring
-- Data quality and reliability scoring
-- Governorate-level performance comparison
-- Executive-ready analytical dashboards
-- BI-ready SQL Server marts
-
-The project demonstrates a full data pipeline from simulated sensor events to dashboard-ready marts.
+The project demonstrates how raw telemetry can be transformed into trusted, decision-ready intelligence through a complete modern data pipeline.
 
 ---
 
-## Architecture
+## 🎯 Project Objectives
+
+EWIS was built to support water-infrastructure monitoring through:
+
+- 🏭 Station-level operational monitoring
+- 💧 Water Quality Index tracking
+- 🚨 Alert detection and monitoring
+- ✅ Sensor data quality and reliability scoring
+- 🏙️ Governorate-level performance comparison
+- 📊 Executive-ready analytical dashboards
+- 🧱 BI-ready SQL Server data marts
+- 🔁 Automated orchestration using Apache Airflow
+
+---
+
+## 🏗️ Project Architecture & Workflow
 
 ```text
 Sensor Data Generator
@@ -38,24 +41,122 @@ Analytical BI Marts
 Streamlit Dashboard
 ```
 
+### 1. Telemetry Simulation & Streaming 🔄
+
+The project simulates operational water-treatment telemetry using Python scripts.
+
+Key components:
+
+- Sensor readings generator
+- Station metadata
+- Sensor metadata
+- Reference threshold rules
+- Kafka topic setup
+
+Main files:
+
+```text
+airflow/dags/scripts/sensor_data_generator.py
+airflow/dags/scripts/kafka_setup.py
+shared/sensors_metadata.csv
+shared/stations_metadata.csv
+shared/reference_parameters.csv
+shared/reference_threshold_rules.csv
+```
+
 ---
 
-## Technology Stack
+### 2. Orchestration Layer ⚙️
 
-| Layer | Tools |
+Apache Airflow is used to orchestrate the full data pipeline.
+
+The main DAG file is:
+
+```text
+airflow/dags/ewis_main_dag.py
+```
+
+The active DAG name used in the project is:
+
+```text
+EWIS_Enterprise_Final
+```
+
+The DAG handles:
+
+- Running the database schema
+- Setting up Kafka topics
+- Loading metadata
+- Loading reference data
+- Streaming sensor readings
+- Running Spark processing
+- Building analytical marts
+
+---
+
+### 3. Processing Layer ⚡
+
+Spark processing logic transforms streaming sensor readings into structured, validated, and analytics-ready outputs.
+
+Main file:
+
+```text
+shared/spark_processor.py
+```
+
+The processing layer supports:
+
+- Water-quality validation
+- Threshold breach detection
+- Alert logic
+- WQI-related calculations
+- Data quality checks
+- Mart-level aggregation
+
+---
+
+### 4. Database & Warehouse Layer 🗄️
+
+The SQL Server schema is defined in:
+
+```text
+airflow/dags/scripts/EWIS_Database_Schema.sql
+```
+
+Schema execution is handled by:
+
+```text
+airflow/dags/scripts/run_schema.py
+```
+
+The database includes:
+
+- Operational tables
+- Reference tables
+- Analytical marts
+- Data-quality monitoring structures
+- Alert-monitoring structures
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Tools & Libraries |
 |---|---|
-| Orchestration | Apache Airflow |
-| Streaming | Apache Kafka |
-| Processing | Apache Spark |
-| Database | Microsoft SQL Server |
-| Dashboard | Streamlit |
-| Visualization | Plotly, PyDeck |
-| Language | Python |
-| Containerization | Docker Compose |
+| **Programming** | Python |
+| **Orchestration** | Apache Airflow |
+| **Streaming** | Apache Kafka |
+| **Processing** | Apache Spark |
+| **Database** | Microsoft SQL Server |
+| **Dashboard** | Streamlit |
+| **Visualization** | Plotly, PyDeck |
+| **Containerization** | Docker Compose |
+| **Data Access** | SQLAlchemy, PyODBC |
+| **Version Control** | Git, GitHub |
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```text
 EWIS/
@@ -109,101 +210,20 @@ EWIS/
 │   ├── water_quality_trends.png
 │   └── data_trust.png
 │
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ---
 
-## Airflow Pipeline
+## 🧱 Analytical Data Marts
 
-The main DAG file is:
-
-```text
-airflow/dags/ewis_main_dag.py
-```
-
-The Airflow pipeline includes tasks such as:
-
-- Running the SQL Server database schema
-- Setting up Kafka topics
-- Loading metadata
-- Loading reference data
-- Streaming simulated sensor readings
-- Running Spark processing
-- Building analytical marts
-
-The active DAG name used in the project is:
-
-```text
-EWIS_Enterprise_Final
-```
-
----
-
-## Data Generation and Streaming
-
-The project includes a sensor data generator:
-
-```text
-airflow/dags/scripts/sensor_data_generator.py
-```
-
-This script simulates water-treatment telemetry and sends generated readings into the streaming layer.
-
-Kafka setup is handled by:
-
-```text
-airflow/dags/scripts/kafka_setup.py
-```
-
----
-
-## Database Schema
-
-The SQL Server schema is defined in:
-
-```text
-airflow/dags/scripts/EWIS_Database_Schema.sql
-```
-
-The schema includes operational tables, reference tables, and BI marts.
-
-Schema execution is handled by:
-
-```text
-airflow/dags/scripts/run_schema.py
-```
-
----
-
-## Reference and Metadata Files
-
-Reference and metadata setup is handled using:
-
-```text
-airflow/dags/scripts/meta_data.py
-airflow/dags/scripts/reference_data.py
-```
-
-The shared reference files include:
-
-```text
-shared/reference_parameters.csv
-shared/reference_threshold_rules.csv
-shared/sensors_metadata.csv
-shared/stations_metadata.csv
-```
-
----
-
-## Analytical Data Marts
-
-The dashboard consumes the following SQL Server marts:
+The dashboard consumes the following SQL Server analytical marts:
 
 | Mart | Purpose |
 |---|---|
 | `mart_station_latest_status` | Latest station operational and water-quality status |
-| `mart_system_readiness_summary` | National platform readiness and data validity summary |
+| `mart_system_readiness_summary` | National platform readiness and data-validity summary |
 | `mart_governorate_daily_summary` | Governorate-level WQI, station mix, and alert summaries |
 | `mart_parameter_trend` | Time-bucketed parameter trends and breach counts |
 | `mart_station_daily_snapshot` | Daily station WQI and historical station status |
@@ -212,7 +232,7 @@ The dashboard consumes the following SQL Server marts:
 
 ---
 
-## KPI Reference Table
+## 📘 KPI Reference Table
 
 The project also includes a KPI reference table:
 
@@ -234,9 +254,9 @@ This table supports KPI governance and explainability. It is used as a semantic 
 
 ---
 
-## Streamlit Dashboard
+# 📊 Streamlit Dashboard
 
-The Streamlit dashboard is located in:
+The dashboard is located in:
 
 ```text
 dashboard_app/
@@ -248,7 +268,7 @@ The main dashboard entry point is:
 dashboard_app/Home.py
 ```
 
-The dashboard provides 6 main views:
+The dashboard includes 6 main views:
 
 1. Home
 2. Executive Overview
@@ -259,16 +279,14 @@ The dashboard provides 6 main views:
 
 ---
 
-## Dashboard Pages
+## 🏠 1. Home
 
-### 1. Home
+The **Home** page is the executive landing page for the EWIS platform. It summarizes the current national water-intelligence status and highlights whether the platform is stable, under monitoring, or requires operational attention.
 
-The Home page is the executive landing page for the EWIS platform. It summarizes the current national water-intelligence status and highlights whether the platform is stable, under monitoring, or requires operational attention.
-
-It includes:
+### Key insights shown:
 
 - Platform readiness score
-- System operational status
+- Current system status
 - Stable station coverage
 - Affected stations
 - Data validity
@@ -276,63 +294,69 @@ It includes:
 - System overview
 - Recommended navigation
 
-Main marts used:
+### Main marts used:
 
 - `mart_system_readiness_summary`
 - `mart_station_latest_status`
 - `mart_alert_monitor`
 
-docs/home.png
+### Dashboard Preview
+
+<img width="1900" alt="EWIS Home Dashboard" src="docs/home.png" />
 
 ---
 
-### 2. Executive Overview
+## 🌍 2. Executive Overview
 
-The Executive Overview page provides national-level monitoring for station health, live operational status, alert distribution, and geographic station visibility.
+The **Executive Overview** page provides national-level monitoring for station health, live operational status, alert distribution, and geographic station visibility.
 
-It includes:
+### Key insights shown:
 
 - Station status distribution
 - Open alert types
 - Live station map
 - Priority stations table
-- National KPIs
+- National operational KPIs
 
-Main marts used:
+### Main marts used:
 
 - `mart_system_readiness_summary`
 - `mart_station_latest_status`
 - `mart_alert_monitor`
 
-docs/executive_overview.png
+### Dashboard Preview
+
+<img width="1900" alt="EWIS Executive Overview Dashboard" src="docs/executive_overview.png" />
 
 ---
 
-### 3. Governorate Performance
+## 🏙️ 3. Governorate Performance
 
-The Governorate Performance page compares regional water-quality and operational behavior across governorates. It helps identify which regions have stronger WQI performance, higher alert load, or unstable station status mixes.
+The **Governorate Performance** page compares regional water-quality and operational behavior across governorates. It helps identify which regions have stronger WQI performance, higher alert load, or unstable station-status mixes.
 
-It includes:
+### Key insights shown:
 
 - Average WQI by governorate
 - Current station status mix
 - Governorate ranking
 - Regional alert load
-- Critical alerts
+- Critical alert counts
 
-Main mart used:
+### Main mart used:
 
 - `mart_governorate_daily_summary`
 
-docs/governate_performance.png
+### Dashboard Preview
+
+<img width="1900" alt="EWIS Governorate Performance Dashboard" src="docs/governate_performance.png" />
 
 ---
 
-### 4. Station Monitoring
+## 🏭 4. Station Monitoring
 
-The Station Monitoring page provides station-level drill-down analysis. It allows users to select a governorate and station, then inspect station WQI, alert reasons, data freshness, and historical daily performance.
+The **Station Monitoring** page provides station-level drill-down analysis. It allows users to select a governorate and station, then inspect station WQI, alert reasons, data freshness, and historical daily performance.
 
-It includes:
+### Key insights shown:
 
 - Selected station details
 - Latest WQI
@@ -344,22 +368,24 @@ It includes:
 - Data trust metrics
 - Station daily WQI history
 
-Main marts used:
+### Main marts used:
 
 - `mart_station_latest_status`
 - `mart_alert_monitor`
 - `mart_station_daily_snapshot`
 - `mart_data_quality_monitor`
 
-docs/station_monitoring.png
+### Dashboard Preview
+
+<img width="1900" alt="EWIS Station Monitoring Dashboard" src="docs/station_monitoring.png" />
 
 ---
 
-### 5. Water Quality Trends
+## 🧪 5. Water Quality Trends
 
-The Water Quality Trends page focuses on analytical exploration of water-quality parameters such as turbidity, chlorine, pH, breaches, and WQI distribution.
+The **Water Quality Trends** page focuses on analytical exploration of water-quality parameters such as turbidity, chlorine, pH, breaches, and WQI distribution.
 
-It includes:
+### Key insights shown:
 
 - Parameter trend by governorate
 - Breach load by governorate
@@ -367,20 +393,22 @@ It includes:
 - Station daily WQI distribution
 - Parameter trend records
 
-Main marts used:
+### Main marts used:
 
 - `mart_parameter_trend`
 - `mart_station_daily_snapshot`
 
-docs/water_quality_trends.png
+### Dashboard Preview
+
+<img width="1900" alt="EWIS Water Quality Trends Dashboard" src="docs/water_quality_trends.png" />
 
 ---
 
-### 6. Data Trust
+## ✅ 6. Data Trust
 
-The Data Trust page evaluates telemetry reliability and sensor quality. It helps distinguish between real operational issues and problems caused by unreliable sensor readings.
+The **Data Trust** page evaluates telemetry reliability and sensor quality. It helps distinguish between real operational issues and problems caused by unreliable sensor readings.
 
-It includes:
+### Key insights shown:
 
 - Average data quality score
 - Valid readings
@@ -393,18 +421,20 @@ It includes:
 - Data quality by governorate
 - Data quality details table
 
-Main marts used:
+### Main marts used:
 
 - `mart_data_quality_monitor`
 - `mart_system_readiness_summary`
 
-docs/data_trust.png
+### Dashboard Preview
+
+<img width="1900" alt="EWIS Data Trust Dashboard" src="docs/data_trust.png" />
 
 ---
 
-## How to Run the Project
+# 🚀 How to Run the Project
 
-### 1. Start Docker services
+## 1. Start Docker Services
 
 From the project root folder:
 
@@ -418,7 +448,7 @@ This starts the containerized services defined in:
 docker-compose.yml
 ```
 
-Depending on the environment, the services may include:
+Depending on the local environment, the services may include:
 
 - Airflow
 - Kafka
@@ -428,11 +458,9 @@ Depending on the environment, the services may include:
 
 ---
 
-### 2. Open Airflow
+## 2. Open Airflow
 
-After Docker services are running, open Airflow in the browser.
-
-Common Airflow URL:
+After Docker services are running, open Airflow in the browser:
 
 ```text
 http://localhost:8080
@@ -452,7 +480,7 @@ airflow/dags/ewis_main_dag.py
 
 ---
 
-### 3. Run the Streamlit dashboard
+## 3. Run the Streamlit Dashboard
 
 Open a terminal and navigate to the dashboard folder:
 
@@ -486,7 +514,7 @@ http://localhost:8502
 
 ---
 
-## Important Clean Rerun Note
+# 🔁 Important Clean Rerun Note
 
 Before running the full pipeline from scratch again, remove old runtime state files.
 
@@ -521,7 +549,7 @@ Do not delete source code, SQL scripts, dashboard files, reference CSVs, or Dock
 
 ---
 
-## What Should Not Be Pushed to GitHub
+# 🚫 What Should Not Be Pushed to GitHub
 
 Do not push runtime-generated files such as:
 
@@ -539,7 +567,7 @@ These files are generated during execution and are not part of the source code.
 
 ---
 
-## Dashboard Requirements
+# 📦 Dashboard Requirements
 
 The Streamlit dashboard dependencies are stored in:
 
@@ -555,18 +583,7 @@ pip install -r dashboard_app/requirements.txt
 
 ---
 
-## Running Only the Dashboard
-
-If the database and marts are already available, the dashboard can be run independently:
-
-```powershell
-cd "C:\Users\scisa\Desktop\projects\Depi Project\dashboard_app"
-streamlit run Home.py
-```
-
----
-
-## Dashboard Refresh
+# 🔄 Dashboard Refresh
 
 The dashboard pages use automatic refresh:
 
@@ -578,9 +595,9 @@ This means the dashboard refreshes approximately every 30 seconds to show update
 
 ---
 
-## Key Business Logic
+# 🧠 Key Business Logic
 
-### Open Alerts
+## Open Alerts
 
 Only currently open alerts are treated as active:
 
@@ -588,7 +605,7 @@ Only currently open alerts are treated as active:
 WHERE status = 'open'
 ```
 
-### Station Status
+## Station Status
 
 Station status is driven by:
 
@@ -606,7 +623,7 @@ Typical status colors:
 | Red | Critical attention required |
 | Gray | Missing or unavailable signal |
 
-### Data Trust
+## Data Trust
 
 Data reliability is evaluated using:
 
@@ -622,7 +639,7 @@ Data reliability is evaluated using:
 
 ---
 
-## Project Value
+# 🌟 Project Value
 
 EWIS demonstrates an end-to-end data engineering solution that connects streaming telemetry, data quality controls, mart modeling, orchestration, and business intelligence visualization.
 
@@ -630,6 +647,6 @@ The project shows how raw sensor readings can be transformed into trusted operat
 
 ---
 
-## Author
+# 👤 Author
 
 Built as an end-to-end data engineering and BI project for water intelligence monitoring.
