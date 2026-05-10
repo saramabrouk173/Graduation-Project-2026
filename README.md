@@ -1,4 +1,3 @@
-````markdown
 # EWIS — Enterprise Water Intelligence System
 
 EWIS is an end-to-end data engineering and business intelligence project for monitoring drinking-water treatment stations.
@@ -37,22 +36,22 @@ SQL Server Data Warehouse
 Analytical BI Marts
         ↓
 Streamlit Dashboard
-````
+```
 
 ---
 
 ## Technology Stack
 
-| Layer            | Tools                |
-| ---------------- | -------------------- |
-| Orchestration    | Apache Airflow       |
-| Streaming        | Apache Kafka         |
-| Processing       | Apache Spark         |
-| Database         | Microsoft SQL Server |
-| Dashboard        | Streamlit            |
-| Visualization    | Plotly, PyDeck       |
-| Language         | Python               |
-| Containerization | Docker Compose       |
+| Layer | Tools |
+|---|---|
+| Orchestration | Apache Airflow |
+| Streaming | Apache Kafka |
+| Processing | Apache Spark |
+| Database | Microsoft SQL Server |
+| Dashboard | Streamlit |
+| Visualization | Plotly, PyDeck |
+| Language | Python |
+| Containerization | Docker Compose |
 
 ---
 
@@ -74,26 +73,21 @@ EWIS/
 │   │       ├── reference_data.py
 │   │       ├── run_schema.py
 │   │       └── sensor_data_generator.py
-│   │
-│   └── logs/                  # Runtime logs, ignored in Git
 │
 ├── dashboard_app/
 │   ├── Home.py
 │   ├── requirements.txt
 │   ├── .streamlit/
 │   │   └── config.toml
-│   │
 │   ├── assets/
 │   │   ├── logo.png
 │   │   └── styles.css
-│   │
 │   ├── pages/
 │   │   ├── 1_Executive_Overview.py
 │   │   ├── 2_Governorate_Overview.py
 │   │   ├── 3_Station_Monitoring.py
 │   │   ├── 4_Water_Quality_Trends.py
 │   │   └── 5_Data_Trust.py
-│   │
 │   └── utils/
 │       ├── db.py
 │       ├── formatters.py
@@ -105,10 +99,17 @@ EWIS/
 │   ├── reference_threshold_rules.csv
 │   ├── sensors_metadata.csv
 │   ├── spark_processor.py
-│   ├── stations_metadata.csv
-│   └── checkpoints/           # Runtime Spark checkpoints, ignored in Git
+│   └── stations_metadata.csv
 │
-└── work/
+├── docs/
+│   ├── home.png
+│   ├── executive_overview.png
+│   ├── governate_performance.png
+│   ├── station_monitoring.png
+│   ├── water_quality_trends.png
+│   └── data_trust.png
+│
+└── README.md
 ```
 
 ---
@@ -123,13 +124,13 @@ airflow/dags/ewis_main_dag.py
 
 The Airflow pipeline includes tasks such as:
 
-* Running the SQL Server database schema
-* Setting up Kafka topics
-* Loading metadata
-* Loading reference data
-* Streaming simulated sensor readings
-* Running Spark processing
-* Building analytical marts
+- Running the SQL Server database schema
+- Setting up Kafka topics
+- Loading metadata
+- Loading reference data
+- Streaming simulated sensor readings
+- Running Spark processing
+- Building analytical marts
 
 The active DAG name used in the project is:
 
@@ -199,15 +200,15 @@ shared/stations_metadata.csv
 
 The dashboard consumes the following SQL Server marts:
 
-| Mart                             | Purpose                                                                           |
-| -------------------------------- | --------------------------------------------------------------------------------- |
-| `mart_station_latest_status`     | Latest station operational and water-quality status                               |
-| `mart_system_readiness_summary`  | National platform readiness and data validity summary                             |
-| `mart_governorate_daily_summary` | Governorate-level WQI, station mix, and alert summaries                           |
-| `mart_parameter_trend`           | Time-bucketed parameter trends and breach counts                                  |
-| `mart_station_daily_snapshot`    | Daily station WQI and historical station status                                   |
-| `mart_alert_monitor`             | Open and historical alert monitoring                                              |
-| `mart_data_quality_monitor`      | Sensor reliability, invalid readings, suspicious readings, and drift-risk metrics |
+| Mart | Purpose |
+|---|---|
+| `mart_station_latest_status` | Latest station operational and water-quality status |
+| `mart_system_readiness_summary` | National platform readiness and data validity summary |
+| `mart_governorate_daily_summary` | Governorate-level WQI, station mix, and alert summaries |
+| `mart_parameter_trend` | Time-bucketed parameter trends and breach counts |
+| `mart_station_daily_snapshot` | Daily station WQI and historical station status |
+| `mart_alert_monitor` | Open and historical alert monitoring |
+| `mart_data_quality_monitor` | Sensor reliability, invalid readings, suspicious readings, and drift-risk metrics |
 
 ---
 
@@ -221,13 +222,13 @@ ref_kpi_definition
 
 This table documents KPI metadata such as:
 
-* KPI code
-* KPI name
-* KPI group
-* Business definition
-* Source object
-* Refresh grain
-* Interpretation hint
+- KPI code
+- KPI name
+- KPI group
+- Business definition
+- Source object
+- Refresh grain
+- Interpretation hint
 
 This table supports KPI governance and explainability. It is used as a semantic reference layer, but it is not exposed as a dedicated dashboard page in the current Streamlit dashboard.
 
@@ -247,152 +248,163 @@ The main dashboard entry point is:
 dashboard_app/Home.py
 ```
 
+The dashboard provides 6 main views:
+
+1. Home
+2. Executive Overview
+3. Governorate Performance
+4. Station Monitoring
+5. Water Quality Trends
+6. Data Trust
+
 ---
 
 ## Dashboard Pages
 
 ### 1. Home
 
-The landing page provides a high-level executive summary:
+The Home page is the executive landing page for the EWIS platform. It summarizes the current national water-intelligence status and highlights whether the platform is stable, under monitoring, or requires operational attention.
 
-* Platform readiness score
-* System operational status
-* Stable station coverage
-* Affected stations
-* Data validity
-* BI mart readiness
-* System overview
-* Recommended navigation
+It includes:
+
+- Platform readiness score
+- System operational status
+- Stable station coverage
+- Affected stations
+- Data validity
+- BI mart readiness
+- System overview
+- Recommended navigation
+
+Main marts used:
+
+- `mart_system_readiness_summary`
+- `mart_station_latest_status`
+- `mart_alert_monitor`
+
+docs/home.png
 
 ---
 
 ### 2. Executive Overview
 
-National-level monitoring page showing:
+The Executive Overview page provides national-level monitoring for station health, live operational status, alert distribution, and geographic station visibility.
 
-* Station status distribution
-* Open alert types
-* Live station map
-* Priority stations table
-* National KPIs
+It includes:
+
+- Station status distribution
+- Open alert types
+- Live station map
+- Priority stations table
+- National KPIs
 
 Main marts used:
 
-* `mart_system_readiness_summary`
-* `mart_station_latest_status`
-* `mart_alert_monitor`
+- `mart_system_readiness_summary`
+- `mart_station_latest_status`
+- `mart_alert_monitor`
+
+docs/executive_overview.png
 
 ---
 
 ### 3. Governorate Performance
 
-Regional performance page showing:
+The Governorate Performance page compares regional water-quality and operational behavior across governorates. It helps identify which regions have stronger WQI performance, higher alert load, or unstable station status mixes.
 
-* Average WQI by governorate
-* Current station status mix
-* Governorate ranking
-* Regional alert load
-* Critical alerts
+It includes:
+
+- Average WQI by governorate
+- Current station status mix
+- Governorate ranking
+- Regional alert load
+- Critical alerts
 
 Main mart used:
 
-* `mart_governorate_daily_summary`
+- `mart_governorate_daily_summary`
+
+docs/governate_performance.png
 
 ---
 
 ### 4. Station Monitoring
 
-Station drill-down page showing:
+The Station Monitoring page provides station-level drill-down analysis. It allows users to select a governorate and station, then inspect station WQI, alert reasons, data freshness, and historical daily performance.
 
-* Selected station details
-* Latest WQI
-* Active alerts
-* Water-quality alerts
-* Process alerts
-* Data freshness
-* Open alerts for station
-* Data trust metrics
-* Station daily WQI history
+It includes:
+
+- Selected station details
+- Latest WQI
+- Active alerts
+- Water-quality alerts
+- Process alerts
+- Data freshness
+- Open alerts for station
+- Data trust metrics
+- Station daily WQI history
 
 Main marts used:
 
-* `mart_station_latest_status`
-* `mart_alert_monitor`
-* `mart_station_daily_snapshot`
-* `mart_data_quality_monitor`
+- `mart_station_latest_status`
+- `mart_alert_monitor`
+- `mart_station_daily_snapshot`
+- `mart_data_quality_monitor`
+
+docs/station_monitoring.png
 
 ---
 
 ### 5. Water Quality Trends
 
-Water-quality analytics page showing:
+The Water Quality Trends page focuses on analytical exploration of water-quality parameters such as turbidity, chlorine, pH, breaches, and WQI distribution.
 
-* Parameter trend by governorate
-* Breach load by governorate
-* Breach heatmap across parameters
-* Station daily WQI distribution
-* Parameter trend records
+It includes:
+
+- Parameter trend by governorate
+- Breach load by governorate
+- Breach heatmap across parameters
+- Station daily WQI distribution
+- Parameter trend records
 
 Main marts used:
 
-* `mart_parameter_trend`
-* `mart_station_daily_snapshot`
+- `mart_parameter_trend`
+- `mart_station_daily_snapshot`
+
+docs/water_quality_trends.png
 
 ---
 
 ### 6. Data Trust
 
-Data reliability page showing:
+The Data Trust page evaluates telemetry reliability and sensor quality. It helps distinguish between real operational issues and problems caused by unreliable sensor readings.
 
-* Average data quality score
-* Valid readings
-* Suspicious readings
-* Invalid readings
-* Duplicate readings
-* Drift-risk flags
-* Data quality band distribution
-* Lowest-quality sensors
-* Data quality by governorate
-* Data quality details table
+It includes:
+
+- Average data quality score
+- Valid readings
+- Suspicious readings
+- Invalid readings
+- Duplicate readings
+- Drift-risk flags
+- Data quality band distribution
+- Lowest-quality sensors
+- Data quality by governorate
+- Data quality details table
 
 Main marts used:
 
-* `mart_data_quality_monitor`
-* `mart_system_readiness_summary`
+- `mart_data_quality_monitor`
+- `mart_system_readiness_summary`
 
----
-
-## Dashboard Screenshots
-
-### Home
-
-![Home Dashboard](docs/screenshots/home.png)
-
-### Executive Overview
-
-![Executive Overview](docs/screenshots/executive_overview.png)
-
-### Governorate Performance
-
-![Governorate Performance](docs/screenshots/governorate_performance.png)
-
-### Station Monitoring
-
-![Station Monitoring](docs/screenshots/station_monitoring.png)
-
-### Water Quality Trends
-
-![Water Quality Trends](docs/screenshots/water_quality_trends.png)
-
-### Data Trust
-
-![Data Trust](docs/screenshots/data_trust.png)
+docs/data_trust.png
 
 ---
 
 ## How to Run the Project
 
-### 1. Start Docker Services
+### 1. Start Docker services
 
 From the project root folder:
 
@@ -408,11 +420,11 @@ docker-compose.yml
 
 Depending on the environment, the services may include:
 
-* Airflow
-* Kafka
-* Spark
-* SQL Server
-* Supporting services
+- Airflow
+- Kafka
+- Spark
+- SQL Server
+- Supporting services
 
 ---
 
@@ -440,7 +452,7 @@ airflow/dags/ewis_main_dag.py
 
 ---
 
-### 3. Run the Streamlit Dashboard
+### 3. Run the Streamlit dashboard
 
 Open a terminal and navigate to the dashboard folder:
 
@@ -586,27 +598,27 @@ overall_status_color
 
 Typical status colors:
 
-| Color  | Meaning                       |
-| ------ | ----------------------------- |
-| Green  | Stable                        |
-| Yellow | Monitoring required           |
-| Orange | Elevated risk                 |
-| Red    | Critical attention required   |
-| Gray   | Missing or unavailable signal |
+| Color | Meaning |
+|---|---|
+| Green | Stable |
+| Yellow | Monitoring required |
+| Orange | Elevated risk |
+| Red | Critical attention required |
+| Gray | Missing or unavailable signal |
 
 ### Data Trust
 
 Data reliability is evaluated using:
 
-* Valid readings
-* Invalid readings
-* Partial readings
-* Duplicate readings
-* Suspicious readings
-* Stale signal flags
-* Drift-risk indicators
-* Data quality score
-* Data quality band
+- Valid readings
+- Invalid readings
+- Partial readings
+- Duplicate readings
+- Suspicious readings
+- Stale signal flags
+- Drift-risk indicators
+- Data quality score
+- Data quality band
 
 ---
 
@@ -621,14 +633,3 @@ The project shows how raw sensor readings can be transformed into trusted operat
 ## Author
 
 Built as an end-to-end data engineering and BI project for water intelligence monitoring.
-
-<<<<<<< HEAD
-
-
-
-
-
-=======
-```
-```
->>>>>>> d1b9f7c (Update README formatting)
