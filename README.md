@@ -627,8 +627,3 @@ EWIS demonstrates an end-to-end data engineering solution that connects streamin
 
 The project shows how raw sensor readings can be transformed into trusted operational intelligence for water infrastructure monitoring.
 
----
-
-# 👤 Author
-
-Built as an end-to-end data engineering and BI project for water intelligence monitoring.
