@@ -549,24 +549,6 @@ Do not delete source code, SQL scripts, dashboard files, reference CSVs, or Dock
 
 ---
 
-# 🚫 What Should Not Be Pushed to GitHub
-
-Do not push runtime-generated files such as:
-
-```text
-airflow/logs/
-shared/checkpoints/
-__pycache__/
-*.pyc
-.metadata_sent
-.reference_sent
-project_tree.txt
-```
-
-These files are generated during execution and are not part of the source code.
-
----
-
 # 📦 Dashboard Requirements
 
 The Streamlit dashboard dependencies are stored in:
